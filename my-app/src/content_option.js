@@ -1,60 +1,57 @@
-const logotext = "Traditional Line";
+const logotext = "Jeremy Kolker";
 const meta = {
-    title: "Traditional Line",
-    description: "ARCHITECTURAL RESTORATION ",
+    title: "Jeremy Kolker",
+    description: "SOFTWARE ENGINEER",
+    img:"https://i.imgur.com/GSdZtIs.png",
 };
 
 const introdata = {
-    title: "Traditional Line",
+    title: "Software Engineering & Web Development" + "\xa0",
     animated: {
-        first: "I love coding",
+        first: "I build useful apps",
         second: "I code cool websites",
-        third: "I develop mobile apps",
+        third: "I develop UX & UI",
     },
-    description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed at nisl euismod urna bibendum",
-    your_img_url: "https://images.unsplash.com/photo-1514790193030-c89d266d5a9d",
+    description: "Software Engineering",
+    your_img_url: "https://i.imgur.com/GSdZtIs.png",
 };
 
 const dataabout = {
-    title: "abit about my self",
-    aboutme: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent quis dolor id ligula semper elementum feugiat pretium nulla. Nunc non commodo dolor. Nunc mollis dignissim facilisis. Morbi ut magna ultricies.",
+    title: "About",
+    aboutme: "Throughout my life, I've worn many hats in a variety of different industries. No matter the job, constructing things that bring people joy is my passion. From working on architectural restoration projects in landmarked buildings all over New York City to managing music artists and personally performing worldwide in numerous bands. These days I'm a Full-stack Software Developer and UX designer looking to code my next great masterpiece and make the digital world a better place. I specialize in Python, Javascript (including EJS, jQuery, and advanced JS tools), React, CSS, HTML, SQL, Django, Node, Mongo, and much more.",
 };
-const worktimeline = [{
-        jobtitle: "Designer of week",
-        where: "YAdfi",
-        date: "2020",
-    },
-    {
-        jobtitle: "Designer of week",
-        where: "Jamalya",
-        date: "2019",
-    },
-    {
-        jobtitle: "Designer of week",
-        where: "ALquds",
-        date: "2019",
-    },
-];
 
 const skills = [{
         name: "Python",
-        value: 90,
+        value: 100,
     },
     {
-        name: "Djano",
-        value: 85,
+        name: "Django",
+        value: 100,
     },
     {
-        name: "Javascript",
-        value: 80,
+        name: "JavaScript",
+        value: 100,
     },
     {
         name: "React",
-        value: 60,
+        value: 100,
     },
     {
-        name: "Jquery",
-        value: 85,
+        name: "JQuery",
+        value: 100,
+    },
+    {
+        name: "HTML",
+        value: 100,
+    },
+    {
+        name: "CSS/Bootstrap/Skeleton",
+        value: 100,
+    },
+    {
+        name: "PostgreSQL",
+        value: 100,
     },
 ];
 
@@ -73,72 +70,72 @@ const services = [{
 ];
 
 const dataportfolio = [{
-        img: "https://picsum.photos/400/?grayscale",
-        description: "The wisdom of life consists in the elimination of non-essentials.",
-        link: "#",
+        img: "https://i.imgur.com/NmLHg3O.png",
+        // description: "Ziggy's Finds is a personalized e-commerce store with an engaging user-interface. Frontend built with React.js, consumes Django API, fully functional CRUD capabilities. Mobile ready styling built with CSS/Bootstrap. Anime.js used for JS animation styling.Backend built fully with Python, using a Postgresql Database Management system, serving JSON rest APIs.",
+        link: "https://github.com/jeremykolker/Ziggys-Finds",
     },
     {
-        img: "https://picsum.photos/400/800/?grayscale",
-        description: "The wisdom of life consists in the elimination of non-essentials.",
-        link: "#",
+        img: "https://i.imgur.com/Po3UIkY.png",
+        // description: "SLASHR is a Horror Movie database, resource tool, and watchlist maker. Fullstack Crud App built using React, MongoDB, Mongo Atlas, and TMDB 3rd party API data.",
+        link: "https://github.com/forbesbrian96/Slashr_front-end",
     },
     {
-        img: "https://picsum.photos/400/?grayscale",
-        description: "The wisdom of life consists in the elimination of non-essentials.",
-        link: "#",
+        img: "https://i.imgur.com/3t3hYiy.png",
+        // description: "To-Do It! Is a digital list-maker/organizer/calendar app that allows users to create and organize lists, schedules, and much more! A mobile ready Fullstack CRUD application built with Javascript(jQuery & EJS), CSS-Bootstrap styling, HTML-5, Node.JS, Express, and MongoDB for database management.",
+        link: "https://github.com/jeremykolker/ToDoIt",
     },
     {
-        img: "https://picsum.photos/400/600/?grayscale",
-        description: "The wisdom of life consists in the elimination of non-essentials.",
-        link: "#",
+        img: "https://i.imgur.com/PDn22vi.png",
+        // description: "DOGGY DOG WORLD is a Dogwalking/Petcare web App that allows users (petcare professionals and dog walkers) to upload, manipulate, and save client data with a responsive interface that makes scheduling easy. Frontend built with React, consumes Django API, fully functional CRUD capabilities. Mobile ready styling built with CSS/Bootstrap.Backend built with Python and Postgresql Database Management, serving a JSON API.",
+        link: "https://github.com/tiffanysimione/Project-Four-Front-End-%20target=",
     },
-    {
-        img: "https://picsum.photos/400/300/?grayscale",
-        description: "The wisdom of life consists in the elimination of non-essentials.",
-        link: "#",
-    },
-    {
-        img: "https://picsum.photos/400/700/?grayscale",
-        description: "The wisdom of life consists in the elimination of non-essentials.",
-        link: "#",
-    },
+    // {
+    //     img: "https://picsum.photos/400/300/?grayscale",
+    //     description: "The wisdom of life consists in the elimination of non-essentials.",
+    //     link: "#",
+    // },
+    // {
+    //     img: "https://picsum.photos/400/700/?grayscale",
+    //     description: "The wisdom of life consists in the elimination of non-essentials.",
+    //     link: "#",
+    // },
 
-    {
-        img: "https://picsum.photos/400/600/?grayscale",
-        description: "The wisdom of life consists in the elimination of non-essentials.",
-        link: "#",
-    },
-    {
-        img: "https://picsum.photos/400/300/?grayscale",
-        description: "The wisdom of life consists in the elimination of non-essentials.",
-        link: "#",
-    },
-    {
-        img: "https://picsum.photos/400/?grayscale",
-        description: "The wisdom of life consists in the elimination of non-essentials.",
-        link: "#",
-    },
-    {
-        img: "https://picsum.photos/400/550/?grayscale",
-        description: "The wisdom of life consists in the elimination of non-essentials.",
-        link: "#",
-    },
-    {
-        img: "https://picsum.photos/400/?grayscale",
-        description: "The wisdom of life consists in the elimination of non-essentials.",
-        link: "#",
-    },
-    {
-        img: "https://picsum.photos/400/700/?grayscale",
-        description: "The wisdom of life consists in the elimination of non-essentials.",
-        link: "#",
-    },
+    // {
+    //     img: "https://picsum.photos/400/600/?grayscale",
+    //     description: "The wisdom of life consists in the elimination of non-essentials.",
+    //     link: "#",
+    // },
+    // {
+    //     img: "https://picsum.photos/400/300/?grayscale",
+    //     description: "The wisdom of life consists in the elimination of non-essentials.",
+    //     link: "#",
+    // },
+    // {
+    //     img: "https://picsum.photos/400/?grayscale",
+    //     description: "The wisdom of life consists in the elimination of non-essentials.",
+    //     link: "#",
+    // },
+    // {
+    //     img: "https://picsum.photos/400/550/?grayscale",
+    //     description: "The wisdom of life consists in the elimination of non-essentials.",
+    //     link: "#",
+    // },
+    // {
+    //     img: "https://picsum.photos/400/?grayscale",
+    //     description: "The wisdom of life consists in the elimination of non-essentials.",
+    //     link: "#",
+    // },
+    // {
+    //     img: "https://picsum.photos/400/700/?grayscale",
+    //     description: "The wisdom of life consists in the elimination of non-essentials.",
+    //     link: "#",
+    // },
 ];
 
 const contactConfig = {
-    YOUR_EMAIL: "name@domain.com",
-    YOUR_FONE: "(555)123-4567",
-    description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi vehicula eu nunc et sollicitudin. Cras pulvinar, nisi at imperdiet pharetra. ",
+    YOUR_EMAIL: "jeremy.kolker@me.com",
+    YOUR_FONE: "(914)202-5801",
+    description: "Please contact me for any questions regarding my services. I look forward to hearing from you!",
     // creat an emailjs.com account 
     // check out this tutorial https://www.emailjs.com/docs/examples/reactjs/
     YOUR_SERVICE_ID: "service_id",
@@ -147,16 +144,15 @@ const contactConfig = {
 };
 
 const socialprofils = {
-    github: "https://github.com",
-    facebook: "https://facebook.com",
-    linkedin: "https://linkedin.com",
-    twitter: "https://twitter.com",
+    github: "https://github.com/jeremykolker",
+    linkedin: "https://www.linkedin.com/in/jeremykolker/",
+ 
 };
 export {
     meta,
     dataabout,
     dataportfolio,
-    worktimeline,
+    // worktimeline,
     skills,
     services,
     introdata,

@@ -94,3 +94,8 @@ code {
 .color_sec {
     color: var(--secondary-color);
 }
+
+introdata{
+    width: 300px;
+    height: 300px;
+}

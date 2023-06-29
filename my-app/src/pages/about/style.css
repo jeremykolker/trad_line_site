@@ -2,6 +2,8 @@
     margin-bottom: calc(3rem + 5.128vw)
 }
 
+
+
 .table td,
 .table th {
     color: var(--text-color);
