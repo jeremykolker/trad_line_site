@@ -1,4 +1,4 @@
-site in progress
+site in progress Jeremy Kolker
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
