@@ -1,8 +1,8 @@
-const logotext = "Jeremy Kolker";
+const logotext = "Jeremy Kolker Technologies";
 const meta = {
     title: "Jeremy Kolker",
     description: "SOFTWARE ENGINEER",
-    img:"https://i.imgur.com/GSdZtIs.png",
+    img:"https://i.imgur.com/o7IqWHQ.jpg",
 };
 
 const introdata = {
@@ -11,14 +11,15 @@ const introdata = {
         first: "I build useful apps",
         second: "I code cool websites",
         third: "I develop UX & UI",
+        fourth: "I help solve technical problems"
     },
-    description: "Software Engineering",
-    your_img_url: "https://i.imgur.com/GSdZtIs.png",
+    description: "Full-Stack Engineer",
+    your_img_url: "https://i.imgur.com/o7IqWHQ.jpg",
 };
 
 const dataabout = {
     title: "About",
-    aboutme: "Throughout my life, I've worn many hats in a variety of different industries. No matter the job, constructing things that bring people joy is my passion. From working on architectural restoration projects in landmarked buildings all over New York City to managing music artists and personally performing worldwide in numerous bands. These days I'm a Full-stack Software Developer and UX designer looking to code my next great masterpiece and make the digital world a better place. I specialize in Python, Javascript (including EJS, jQuery, and advanced JS tools), React, CSS, HTML, SQL, Django, Node, Mongo, and much more.",
+    aboutme: "Throughout my life, I've worn many hats in a variety of different industries. No matter the job, constructing things that bring people joy is my passion. From working on architectural restoration projects in landmarked buildings all over New York City, to managing musical acts and performing worldwide as musician. These days I'm a Full Stack Software Developer and UX designer looking to code my next great masterpiece and make the digital world a better place. I strive on solving problems, being challenged, and working in teams. I specialize in Python, Javascript (including EJS, jQuery, and advanced JS tools), React, CSS, HTML, SQL, Django, Node, Mongo, and much more.",
 };
 
 const skills = [{
