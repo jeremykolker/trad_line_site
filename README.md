@@ -1,5 +1,4 @@
-site in progress Jeremy Kolker
-
+Site By Jeremy Kolker
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
