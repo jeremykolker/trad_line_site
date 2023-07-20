@@ -56,17 +56,25 @@ const skills = [{
     },
 ];
 
-const services = [{
+const services = [
+    {
+        title: "Systems Engineering",
+        description: "",
+    },{
         title: "UI & UX Design",
-        description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed at nisl euismod urna bibendum sollicitudin.",
+        description: "",
     },
     {
-        title: "Mobile Apps",
-        description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed at nisl euismod urna bibendum sollicitudin.",
+        title: "Mobile Application Development",
+        description: "",
     },
     {
-        title: "Wordpress Design",
-        description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed at nisl euismod urna bibendum sollicitudin.",
+        title: "Website Design & Management",
+        description: "",
+    },
+    {
+        title: "Technology Consulting",
+        description: "",
     },
 ];
 
@@ -134,14 +142,14 @@ const dataportfolio = [{
 ];
 
 const contactConfig = {
-    YOUR_EMAIL: "jeremy.kolker@me.com",
+    YOUR_EMAIL: "jeremy.kolker@gmail.com",
     YOUR_FONE: "(914)202-5801",
     description: "Please contact me for any questions regarding my services. I look forward to hearing from you!",
     // creat an emailjs.com account 
     // check out this tutorial https://www.emailjs.com/docs/examples/reactjs/
-    YOUR_SERVICE_ID: "service_id",
-    YOUR_TEMPLATE_ID: "template_id",
-    YOUR_USER_ID: "user_id",
+    YOUR_SERVICE_ID: "service_zbos97m",
+    YOUR_TEMPLATE_ID: "template_nbdmfkn",
+    YOUR_USER_ID: "2xqonu7RZ9BZ8BV2V",
 };
 
 const socialprofils = {

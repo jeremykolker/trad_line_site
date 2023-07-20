@@ -20,9 +20,10 @@
     "typewriter-effect": "^2.19.0",
     "web-vitals": "^2.1.4"
   },
+  "homepage": "https://jeremykolker.netlify.app/",
   "scripts": {
     "start": "react-scripts start",
-    "build": "react-scripts build",
+    "build": "react-scripts build && cp _redirects build/_redirects",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
   },
